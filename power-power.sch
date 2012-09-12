@@ -1491,7 +1491,7 @@ device=RESISTOR
 T 61200 64500 5 10 1 1 0 6 1
 refdes=R333
 T 61200 64300 5 10 1 1 0 6 1
-value=sr-r-10m
+value=sr-r-10000k
 T 61300 64900 5 10 0 1 0 6 1
 footprint=sr_0603
 }

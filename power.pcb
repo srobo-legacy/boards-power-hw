@@ -6407,7 +6407,7 @@ Layer(1 "component")
 	Arc[35.8999mm 248.05mil 86.62mil 86.62mil 7.87mil 19.68mil -180 90 "clearline"]
 	Text[543.31mil 188.98mil 0 122 "studentrobotics.org" ""]
 	Text[56.8996mm 181.10mil 0 122 "Power Board" ""]
-	Text[192.91mil 86.3999mm 1 100 "SR11.F" ""]
+	Text[192.91mil 86.3999mm 1 100 "SR13.F" ""]
 	Polygon("clearpoly")
 	(
 		[149.5003mm 87.2000mm] [151.1000mm 88.7997mm] [162.9000mm 88.8000mm] [162.9000mm 74.4000mm] [157.9000mm 79.4000mm] 

@@ -5,8 +5,8 @@ FileVersion[20100606]
 
 PCB["Power Board" 165.9999mm 100.0001mm]
 
-Grid[393.700787 0.0000 0.0000 1]
-Cursor[0.0000 70.7000mm 0.000000]
+Grid[393.700787 0.0000 0.0000 0]
+Cursor[121.1000mm 84.3000mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.83mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -4118,14 +4118,6 @@ Element["onsolder" "sr_0603" "R333" "sr-r-10M" 126.1000mm 77.5000mm -2.3000mm -1
 
 	)
 
-Element["onsolder" "RADIAL_CAN-350" "C321" "sr-c-470u" 147.7000mm 61.5000mm 5.8802mm -3.0550mm 0 100 "auto"]
-(
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square,thermal(1X)"]
-	Pin[176.00mil 0.0000 60.00mil 0.6518mm 66.00mil 30.00mil "2" "2" "thermal(1X)"]
-	ElementArc [88.00mil 0.0000 175.00mil 175.00mil 0 360 10.00mil]
-
-	)
-
 Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 150.0000mm 68.7000mm 4.2866mm -1.5000mm 1 100 "auto"]
 (
 	Pad[-102.36mil 0.0000 -66.93mil 0.0000 68.90mil 20.00mil 74.90mil "1" "1" "onsolder,square"]
@@ -4136,6 +4128,17 @@ Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 150.0000mm 68.7000mm 4.2866mm
 	ElementLine [156.50mil -59.06mil 156.50mil 59.06mil 10.00mil]
 	ElementLine [-86.50mil 59.06mil 156.50mil 59.06mil 10.00mil]
 	ElementLine [-156.50mil 42.06mil -86.50mil 59.06mil 10.00mil]
+
+	)
+
+Element["onsolder" "RCY200P_2" "C321" "sr-c-470u-16v" 147.3400mm 60.4200mm 6.1200mm -4.0200mm 0 100 "auto"]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square,thermal(1X)"]
+	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" "thermal(1X)"]
+	ElementLine [-80.00mil 180.00mil -40.00mil 180.00mil 10.00mil]
+	ElementLine [-60.00mil 200.00mil -60.00mil 160.00mil 10.00mil]
+	ElementLine [230.00mil 180.00mil 270.00mil 180.00mil 10.00mil]
+	ElementArc [100.00mil 0.0000 200.00mil 200.00mil -0 -360 10.00mil]
 
 	)
 Layer(1 "component")

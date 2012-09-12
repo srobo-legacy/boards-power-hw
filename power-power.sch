@@ -1,4 +1,4 @@
-v 20110115 2
+v 20111231 2
 C 29700 62000 1 0 0 connector2-1.sym
 {
 T 29900 63000 5 10 0 0 0 0 1
@@ -1506,7 +1506,7 @@ refdes=C321
 T 35400 61400 5 10 0 0 270 0 1
 symversion=0.1
 T 34700 61600 5 10 0 0 0 0 1
-footprint=RADIAL_CAN 350
+footprint=RCY200P_2
 T 35200 61000 5 10 1 1 0 0 1
-value=sr-c-470u
+value=sr-c-470u-16v
 }

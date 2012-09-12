@@ -6,7 +6,7 @@ FileVersion[20100606]
 PCB["Power Board" 165.9999mm 100.0001mm]
 
 Grid[393.700787 0.0000 0.0000 1]
-Cursor[135.1001mm 62.8000mm 0.000000]
+Cursor[0.0000 70.7000mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.83mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -7099,8 +7099,6 @@ Layer(2 "solder")
 	Line[140.5999mm 74.1001mm 142.3000mm 72.4000mm 25.00mil 20.00mil ""]
 	Line[140.5999mm 74.6999mm 140.5999mm 73.9999mm 25.00mil 20.00mil "clearline"]
 	Line[140.5999mm 73.9999mm 139.0000mm 72.4000mm 25.00mil 20.00mil ""]
-	Text[410.00mil 1681.00mil 0 200 "IN" "clearline,onsolder"]
-	Text[410.00mil 2431.00mil 0 200 "OUT" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[111.6000mm 48.5000mm] [106.7001mm 48.5000mm] [106.3000mm 1925.20mil] [106.3000mm 51.5000mm] [98.7001mm 51.5000mm] 
@@ -7610,6 +7608,8 @@ Layer(6 "silk")
 	Line[103.6500mm 63.8000mm 103.6500mm 60.8000mm 7.87mil 19.68mil "clearline"]
 	Line[103.6500mm 60.8000mm 97.2000mm 60.8000mm 7.87mil 19.68mil "clearline"]
 	Line[97.2000mm 60.8000mm 97.2000mm 63.8000mm 7.87mil 19.68mil "clearline"]
+	Text[17.5000mm 66.0000mm 1 276 "OUT" "clearline,onsolder"]
+	Text[10.0500mm 34.2499mm 1 298 "IN" "clearline,onsolder"]
 )
 Layer(7 "silk")
 (

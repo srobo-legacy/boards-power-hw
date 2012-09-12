@@ -5,8 +5,8 @@ FileVersion[20100606]
 
 PCB["Power Board" 165.9999mm 100.0001mm]
 
-Grid[393.700787 0.0000 0.0000 0]
-Cursor[131.5000mm 65.4000mm 0.000000]
+Grid[196.850394 0.0000 0.0000 1]
+Cursor[28.1500mm 76.2500mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.83mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -795,7 +795,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.1000mm")
+Attribute("PCB::grid::size" "0.0500mm")
 Via[156.2000mm 84.5000mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[161.3000mm 87.6000mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[162.3000mm 84.7000mm 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
@@ -4122,14 +4122,14 @@ Element["onsolder" "DO214AC" "D304" "sr-d-smaj16a" 150.0000mm 68.7000mm 4.2866mm
 
 	)
 
-Element["onsolder" "RCY200P_2" "C321" "sr-c-470u-16v" 147.3400mm 60.4200mm 6.1200mm -4.0200mm 0 100 "auto"]
+Element["onsolder" "RCY200P_2" "C321" "sr-c-470u-16v" 147.3400mm 60.4200mm -4.0200mm -6.1200mm 3 100 "auto"]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "1" "1" "square,thermal(1X)"]
-	Pin[200.00mil 0.0000 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" "thermal(1X)"]
-	ElementLine [-80.00mil 180.00mil -40.00mil 180.00mil 10.00mil]
-	ElementLine [-60.00mil 200.00mil -60.00mil 160.00mil 10.00mil]
-	ElementLine [230.00mil 180.00mil 270.00mil 180.00mil 10.00mil]
-	ElementArc [100.00mil 0.0000 200.00mil 200.00mil 0 360 10.00mil]
+	Pin[0.0000 -200.00mil 60.00mil 30.00mil 66.00mil 30.00mil "2" "2" "thermal(1X)"]
+	ElementLine [180.00mil 40.00mil 180.00mil 80.00mil 10.00mil]
+	ElementLine [160.00mil 60.00mil 200.00mil 60.00mil 10.00mil]
+	ElementLine [180.00mil -270.00mil 180.00mil -230.00mil 10.00mil]
+	ElementArc [0.0000 -100.00mil 200.00mil 200.00mil 90 360 10.00mil]
 
 	)
 
@@ -6339,8 +6339,8 @@ Layer(1 "component")
 	Line[142.8001mm 2468.50mil 143.8895mm 61.6105mm 10.00mil 20.00mil "clearline"]
 	Line[143.8895mm 61.6105mm 143.8895mm 60.5937mm 10.00mil 20.00mil "clearline"]
 	Line[5507.70mil 61.4500mm 141.0520mm 61.4500mm 10.00mil 20.00mil "clearline"]
-	Line[141.0520mm 61.4500mm 141.9083mm 60.5937mm 10.00mil 20.00mil "clearline"]
-	Line[141.9083mm 60.5937mm 141.9083mm 58.5109mm 10.00mil 20.00mil "clearline"]
+	Line[141.0520mm 61.4500mm 147.1663mm 54.9883mm 10.00mil 20.00mil "clearline"]
+	Line[147.1663mm 54.9883mm 141.9083mm 58.5109mm 10.00mil 20.00mil "clearline"]
 	Line[142.8989mm 58.5109mm 142.8989mm 57.8990mm 10.00mil 20.00mil ""]
 	Line[142.8989mm 57.8990mm 142.5999mm 57.6001mm 10.00mil 20.00mil ""]
 	Line[142.5999mm 57.6001mm 141.2999mm 57.6001mm 10.00mil 20.00mil ""]
@@ -6708,7 +6708,7 @@ Layer(2 "solder")
 	Line[73.0001mm 36.8999mm 71.5000mm 38.4000mm 10.00mil 20.00mil "clearline"]
 	Line[602.36mil 468.50mil 21.7000mm 720.47mil 10.00mil 20.00mil "clearline"]
 	Line[70.8000mm 28.1000mm 72.2000mm 28.1000mm 10.00mil 20.00mil "clearline"]
-	Line[140.6002mm 48.1998mm 140.6002mm 54.3999mm 2.0000mm 20.00mil ""]
+	Line[140.6002mm 48.1998mm 139.5003mm 52.2499mm 2.0000mm 20.00mil ""]
 	Line[116.4001mm 807.09mil 116.4001mm 1074.80mil 10.00mil 20.00mil "clearline"]
 	Line[68.9000mm 377.95mil 69.8002mm 413.39mil 25.00mil 20.00mil "clearline"]
 	Line[79.7497mm 419.28mil 82.0999mm 13.0000mm 25.00mil 20.00mil "clearline"]
@@ -7056,7 +7056,7 @@ Layer(2 "solder")
 	Line[88.1499mm 2023.80mil 88.1499mm 48.6001mm 10.00mil 20.00mil "clearline"]
 	Line[88.1499mm 2023.80mil 88.2045mm 51.3499mm 10.00mil 20.00mil "clearline"]
 	Line[88.2045mm 51.3499mm 90.2500mm 51.3499mm 10.00mil 20.00mil "clearline"]
-	Line[140.5999mm 54.4500mm 145.5999mm 54.4500mm 2.0000mm 20.00mil ""]
+	Line[139.5000mm 52.3000mm 144.5000mm 52.3000mm 2.0000mm 20.00mil ""]
 	Line[126.0180mm 75.4000mm 126.1000mm 75.3180mm 10.00mil 20.00mil "clearline"]
 	Line[128.2000mm 84.0000mm 127.8000mm 84.0000mm 10.00mil 20.00mil "clearline"]
 	Line[126.1000mm 82.3000mm 127.8000mm 84.0000mm 10.00mil 20.00mil "clearline"]
@@ -7134,18 +7134,19 @@ Layer(2 "solder")
 	)
 	Polygon("clearpoly")
 	(
-		[162.9000mm 79.0000mm] [162.9000mm 66.1000mm] [155.8000mm 59.0000mm] [150.3000mm 59.0000mm] [150.3000mm 79.0000mm] 
-	)
-	Polygon("clearpoly")
-	(
-		[146.2000mm 66.5000mm] [142.3000mm 70.4000mm] [139.5000mm 70.4000mm] [137.9000mm 72.0000mm] [137.9000mm 76.8000mm] 
+		[146.0000mm 66.7000mm] [142.3000mm 70.4000mm] [139.5000mm 70.4000mm] [137.9000mm 72.0000mm] [137.9000mm 76.8000mm] 
 		[134.4998mm 76.8000mm] [128.7000mm 82.5998mm] [126.1001mm 82.5998mm] [126.0000mm 35.2001mm] [162.9001mm 35.2001mm] 
-		[162.9000mm 65.6000mm] [155.9000mm 58.6000mm] [146.2000mm 58.6000mm] 
+		[162.9000mm 65.6000mm] [149.3000mm 52.0000mm] [146.0000mm 52.0000mm] 
 	)
 	Polygon("clearpoly")
 	(
 		[149.9000mm 59.0000mm] [146.6000mm 59.0000mm] [146.6000mm 66.7000mm] [142.5000mm 70.8000mm] [5500.00mil 70.8000mm] 
 		[138.3000mm 72.2000mm] [138.3000mm 76.8000mm] [149.9000mm 76.8000mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[162.9000mm 79.0000mm] [162.9000mm 66.1000mm] [149.3000mm 52.5000mm] [146.6000mm 52.5000mm] [146.6000mm 58.6000mm] 
+		[150.3000mm 58.6000mm] [150.3000mm 79.0000mm] 
 	)
 )
 Layer(3 "component-gnd")

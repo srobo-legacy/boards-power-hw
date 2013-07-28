@@ -6433,7 +6433,7 @@ Layer(1 "component")
 	Arc[35.8999mm 248.05mil 86.62mil 86.62mil 7.87mil 19.68mil -180 90 "clearline"]
 	Text[543.31mil 188.98mil 0 122 "studentrobotics.org" ""]
 	Text[56.8996mm 181.10mil 0 122 "Power Board" ""]
-	Text[192.91mil 86.3999mm 1 100 "SR13.F" ""]
+	Text[192.91mil 86.3999mm 1 100 "SR14.F" ""]
 	Polygon("clearpoly")
 	(
 		[149.5003mm 87.2000mm] [151.1000mm 88.7997mm] [162.9000mm 88.8000mm] [162.9000mm 74.4000mm] [157.9000mm 79.4000mm] 
@@ -7312,11 +7312,6 @@ Layer(3 "component-gnd")
 	)
 	Polygon("clearpoly")
 	(
-		[129.92mil 87.3999mm] [129.92mil 65.2000mm] [36.1000mm 65.2000mm] [36.1000mm 87.3999mm] [263.78mil 87.5000mm] 
-		[263.78mil 3218.50mil] [188.98mil 3218.50mil] [188.98mil 87.3999mm] 
-	)
-	Polygon("clearpoly")
-	(
 		[677.17mil 88.0001mm] [36.1000mm 88.0001mm] [36.1000mm 77.6000mm] [677.17mil 77.6000mm] 
 	)
 	Polygon("clearpoly")
@@ -7518,6 +7513,11 @@ Layer(3 "component-gnd")
 	Polygon("clearpoly")
 	(
 		[137.1724mm 35.2123mm] [121.7724mm 35.2123mm] [121.7724mm 84.4121mm] [137.1724mm 84.4121mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[129.92mil 87.3999mm] [129.92mil 65.2000mm] [36.1000mm 65.2000mm] [36.1000mm 87.3999mm] [263.78mil 87.5000mm] 
+		[6.7000mm 81.5500mm] [4.8000mm 81.5500mm] [188.98mil 87.3999mm] 
 	)
 )
 Layer(4 "solder-gnd")

@@ -9,7 +9,7 @@ Grid[196.850394 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.83mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
+Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,3,c:2,4,s:5")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,47.24mil,55.12mil,39.37mil,10.00mil:Skinny,7.87mil,35.43mil,19.69mil,9.84mil"]
 
@@ -4158,6 +4158,37 @@ Element["" "sr_0603" "C323" "sr-c-470n" 79.8500mm 91.1500mm -1.5500mm 0.6000mm 0
 	ElementLine [-0.2000mm 0.3830mm 0.2000mm 0.3830mm 0.2000mm]
 
 	)
+
+Element["" "USB_A_plug_1" "USB-J2" "sr-cn-usb-a-plug" 136.2999mm 24.9000mm -94.48mil -236.22mil 3 100 ""]
+(
+	Pin[-82.68mil 137.80mil 59.06mil 19.68mil 68.90mil 36.22mil "" "4" ""]
+	Pin[-82.68mil 39.37mil 59.06mil 19.68mil 68.90mil 36.22mil "" "3" ""]
+	Pin[-82.68mil -39.37mil 59.06mil 19.68mil 68.90mil 36.22mil "" "2" ""]
+	Pin[-82.68mil -137.80mil 59.06mil 19.68mil 68.90mil 36.22mil "" "1" ""]
+	Pin[0.0000 88.58mil 43.31mil 0.3978mm 43.31mil 43.31mil "" "" "hole"]
+	Pin[0.0000 -88.58mil 43.31mil 0.3978mm 43.31mil 43.31mil "" "" "hole"]
+	Pin[0.0000 230.31mil 145.67mil 23.68mil 155.51mil 98.43mil "" "SHIELD" "thermal(0X,1X)"]
+	Pin[0.0000 -230.31mil 145.67mil 23.68mil 155.51mil 98.43mil "" "SHIELD" "thermal(0X,1X)"]
+	ElementLine [-86.61mil -236.22mil -86.61mil 236.22mil 9.84mil]
+	ElementLine [-86.61mil -236.22mil 106.30mil -236.22mil 9.84mil]
+	ElementLine [-86.61mil 236.22mil 106.30mil 236.22mil 9.84mil]
+
+	)
+
+Element["onsolder" "JUMPER4" "USB-J1" "sr-cn-header4tp" 130.1998mm 21.1200mm 1.4558mm -1.2703mm 1 100 "auto"]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
+	ElementLine [50.00mil -50.00mil 50.00mil 350.00mil 10.00mil]
+	ElementLine [-50.00mil 350.00mil 50.00mil 350.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+
+	)
 Layer(1 "component")
 (
 	Line[152.8501mm 92.4499mm 160.3499mm 92.4499mm 25.00mil 20.00mil ""]
@@ -6427,6 +6458,14 @@ Layer(1 "component")
 	Line[83.6000mm 91.1500mm 83.6003mm 91.1497mm 10.00mil 20.00mil "clearline"]
 	Line[79.1090mm 91.1500mm 76.1004mm 91.1500mm 10.00mil 20.00mil "clearline"]
 	Line[76.1004mm 91.1500mm 76.1001mm 91.1497mm 10.00mil 20.00mil "clearline"]
+	Line[130.1998mm 21.1200mm 133.9198mm 21.1200mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 21.3999mm 133.9198mm 21.1200mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 23.6600mm 133.9598mm 23.6600mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 23.9000mm 133.9598mm 23.6600mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 26.2000mm 133.8999mm 26.2000mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 25.9000mm 133.8999mm 26.2000mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 28.7400mm 133.8600mm 28.7400mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 28.4001mm 133.8600mm 28.7400mm 25.00mil 20.00mil "clearline"]
 	Arc[35.8999mm 248.04mil 86.61mil 86.61mil 7.87mil 19.68mil -90 90 "clearline"]
 	Arc[35.8999mm 248.04mil 86.61mil 86.61mil 7.87mil 19.68mil 0 90 "clearline"]
 	Arc[35.9001mm 248.04mil 86.61mil 86.61mil 7.87mil 19.68mil 90 90 "clearline"]
@@ -6480,6 +6519,10 @@ Layer(1 "component")
 		[137.5999mm 87.1997mm] [149.1000mm 87.1997mm] [149.1000mm 86.5998mm] [156.7000mm 78.9998mm] [157.8000mm 79.0000mm] 
 		[162.9000mm 73.9000mm] [162.9000mm 65.7000mm] [147.8001mm 65.6999mm] [147.8001mm 77.0999mm] [144.8999mm 80.0001mm] 
 		[137.5999mm 80.0001mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[138.8000mm 32.6500mm] [128.9000mm 32.6500mm] [128.9000mm 17.1500mm] [138.8000mm 17.1500mm] 
 	)
 )
 Layer(2 "solder")
@@ -7130,6 +7173,14 @@ Layer(2 "solder")
 	Line[129.6910mm 82.8500mm 129.7000mm 82.8590mm 10.00mil 20.00mil "clearline"]
 	Line[129.7000mm 82.8590mm 129.7000mm 83.6000mm 10.00mil 20.00mil ""]
 	Line[129.6910mm 82.8500mm 130.4000mm 82.8500mm 10.00mil 20.00mil ""]
+	Line[130.1998mm 21.1200mm 133.9198mm 21.1200mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 21.3999mm 133.9198mm 21.1200mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 23.6600mm 133.9598mm 23.6600mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 23.9000mm 133.9598mm 23.6600mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 26.2000mm 133.8999mm 26.2000mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 25.9000mm 133.8999mm 26.2000mm 25.00mil 20.00mil "clearline"]
+	Line[130.1998mm 28.7400mm 133.8600mm 28.7400mm 25.00mil 20.00mil "clearline"]
+	Line[134.1998mm 28.4001mm 133.8600mm 28.7400mm 25.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[111.6000mm 48.5000mm] [106.7001mm 48.5000mm] [106.3000mm 1925.20mil] [106.3000mm 51.5000mm] [98.7001mm 51.5000mm] 
@@ -7179,6 +7230,10 @@ Layer(2 "solder")
 	Polygon("clearpoly")
 	(
 		[125.1000mm 83.5000mm] [126.7500mm 83.5000mm] [126.7500mm 82.0500mm] [125.1000mm 82.0500mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[138.8000mm 17.1500mm] [128.9000mm 17.1500mm] [128.9000mm 32.6500mm] [138.8000mm 32.6500mm] 
 	)
 )
 Layer(3 "component-gnd")
@@ -7626,11 +7681,27 @@ Layer(4 "solder-gnd")
 Layer(5 "outline")
 (
 	Line[122.05mil 96.45mil 126.6000mm 96.45mil 10.00mil 20.00mil "clearline"]
-	Line[126.6000mm 96.45mil 126.6000mm 34.9499mm 10.00mil 20.00mil "clearline"]
-	Line[126.6000mm 34.9499mm 163.1000mm 34.9499mm 10.00mil 20.00mil "clearline"]
+	Line[126.6000mm 96.45mil 126.6000mm 23.4500mm 10.00mil 20.00mil "clearline"]
+	Line[135.3500mm 34.9500mm 163.1000mm 34.9499mm 10.00mil 20.00mil "clearline"]
 	Line[122.05mil 97.4499mm 122.05mil 96.45mil 10.00mil 20.00mil "clearline"]
 	Line[163.1000mm 97.4499mm 122.05mil 97.4499mm 10.00mil 20.00mil "clearline"]
 	Line[163.1000mm 34.9499mm 163.1000mm 97.4499mm 10.00mil 20.00mil "clearline"]
+	Line[139.1000mm 16.8500mm 139.1000mm 32.9500mm 10.00mil 20.00mil "clearline"]
+	Line[126.6000mm 26.4500mm 126.6000mm 34.9500mm 10.00mil 20.00mil "clearline"]
+	Line[128.6000mm 26.4500mm 128.6000mm 32.9500mm 10.00mil 20.00mil "clearline"]
+	Line[139.1000mm 32.9500mm 135.3500mm 32.9500mm 10.00mil 20.00mil "clearline"]
+	Line[132.3500mm 32.9500mm 128.6000mm 32.9500mm 10.00mil 20.00mil "clearline"]
+	Line[126.6000mm 34.9500mm 132.3500mm 34.9500mm 10.00mil 20.00mil "clearline"]
+	Line[128.6000mm 16.8500mm 139.1000mm 16.8500mm 10.00mil 20.00mil "clearline"]
+	Line[128.6000mm 23.4500mm 128.6000mm 16.8500mm 10.00mil 20.00mil "clearline"]
+	Arc[127.6000mm 23.4500mm 1.0000mm 1.0000mm 10.00mil 20.00mil 0 90 "clearline"]
+	Arc[127.6000mm 23.4500mm 1.0000mm 1.0000mm 10.00mil 20.00mil 90 90 "clearline"]
+	Arc[127.6000mm 26.4500mm 1.0000mm 1.0000mm 10.00mil 20.00mil 0 -90 "clearline"]
+	Arc[127.6000mm 26.4500mm 1.0000mm 1.0000mm 10.00mil 20.00mil -90 -90 "clearline"]
+	Arc[132.3500mm 33.9500mm 1.0000mm 1.0000mm 10.00mil 20.00mil -90 -90 "clearline"]
+	Arc[132.3500mm 33.9500mm 1.0000mm 1.0000mm 10.00mil 20.00mil 180 -90 "clearline"]
+	Arc[135.3500mm 33.9500mm 1.0000mm 1.0000mm 10.00mil 20.00mil -90 90 "clearline"]
+	Arc[135.3500mm 33.9500mm 1.0000mm 1.0000mm 10.00mil 20.00mil 0 90 "clearline"]
 )
 Layer(6 "silk")
 (

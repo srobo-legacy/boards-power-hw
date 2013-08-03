@@ -26,10 +26,13 @@ ${BOARD}-top.png: ${BOARD}.pcb
 ${BOARD}-bottom.png: ${BOARD}.pcb
 	${PCB} -x png --dpi 600 --photo-mode --photo-flip-y --outfile $@ $^
 
-bom: bom.html
+bom: bom.html bom.xls
 
 bom.html: ${SCHEMATICS}
 	sr create_bom $^ $@
 
+bom.xls: ${SCHEMATICS}
+	sr create_bom $^ $@
+
 clean:
-	-rm -f ${BOARD}-{top,bottom}.png ${BOARD}.{net,cmd,new.pcb} bom.html ${BOARD}-schematic.pdf
+	-rm -f ${BOARD}-{top,bottom}.png ${BOARD}.{net,cmd,new.pcb} bom.{html,xls} ${BOARD}-schematic.pdf

@@ -15,7 +15,9 @@ Solder Resist:        GREEN on 2 sides
 Silk Screen:          WHITE on 2 sides
 --------------------------------------------------------------------------------
 Panel Details:
-Please panelise as appropriate for in-house assembly.
+Please panelise as appropriate for in-house assembly. Please leave the small
+board in the top right corner of the design attached when removing the boards
+from the panel.
 --------------------------------------------------------------------------------
 Stack up:
 top

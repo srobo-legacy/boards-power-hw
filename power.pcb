@@ -4028,7 +4028,7 @@ Element["" "SOT262" "U100" "sr-ic-tb62752afug" 1350.40mil 26.9811mm 55.36mil -17
 
 	)
 
-Element["" "SOT25_2" "U304" "sr-ic-ts321" 141.9083mm 60.5937mm 113.83mil -118.08mil 0 100 ""]
+Element["" "SOT25_2" "U304" "sr-ic-lmv321w" 141.9083mm 60.5937mm 113.83mil -118.08mil 0 100 ""]
 (
 	Pad[0.0000 -8.00mil 0.0000 8.00mil 24.00mil 30.00mil 34.00mil "OUT" "4" "square,edge2"]
 	Pad[78.00mil -8.00mil 78.00mil 8.00mil 24.00mil 30.00mil 34.00mil "V+" "5" "square,edge2"]

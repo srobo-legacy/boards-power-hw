@@ -514,7 +514,7 @@ device=24Cxx
 T 49300 39050 5 10 1 1 0 6 1
 refdes=U204
 T 49300 38900 5 10 1 1 0 6 1
-value=sr-ic-at24c01
+value=sr-ic-24l08
 T 49400 38000 5 10 0 1 0 6 1
 footprint=SO8
 }

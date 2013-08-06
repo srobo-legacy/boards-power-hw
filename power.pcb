@@ -3441,7 +3441,7 @@ Element["" "sr_0603" "R230" "sr-r-10k" 62.6410mm 80.0999mm -97.73mil 212.62mil 0
 
 	)
 
-Element["" "SO8" "U204" "sr-ic-at24c01" 56.6966mm 82.0049mm -153.85mil -162.36mil 0 100 ""]
+Element["" "SO8" "U204" "sr-ic-24l08" 56.6966mm 82.0049mm -153.85mil -162.36mil 0 100 ""]
 (
 	Pad[-135.00mil -75.00mil -70.00mil -75.00mil 20.00mil 19.68mil 30.00mil "A0" "1" "square"]
 	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 19.68mil 30.00mil "A1" "2" "square"]
